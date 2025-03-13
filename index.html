@@ -3602,192 +3602,6 @@
                 explain: "Symmetric encryption ใช้กุญแจเดียวกันในการเข้ารหัสและถอดรหัส ข้อมูล ข้อเสียคือต้องมีการแลกเปลี่ยนกุญแจระหว่างผู้ส่งและผู้รับ ซึ่งอาจมีความเสี่ยงหากถูกดักจับ",
                 state: false
             },
-
-
-            {
-                problem: "Hacker ได้ทำการสุ่ม Password ของผู้ใช้งานด้วยวิธี Brute-Force Attack ข้อใดต่อไปนี้เป็น password ที่จะทำให้ Hacker จะใช้เวลาแกะเร็วที่ที่สุด",
-                img: "",
-                choices: "IqEw$Dee2@t24///Password///Strawberry///KFCandPizza",
-                answer: "Password",
-                select: "",
-                explain: "Password เป็นคำที่อยู่ใน Dictionary attack ทำให้แฮกเกอร์สามารถใช้เวลาในการแกะรหัสผ่านได้รวดเร็วกว่ารหัสผ่านที่มีความซับซ้อนและยาวกว่า",
-                state: false
-            },
-            {
-                problem: "เว็บไซต์หนึ่งถูกโจมตีในรูปแบบของ DDOS Attack จนเว็บไม่สามารถให้บริการได้ ซึ่งทำให้ขาดคุณสมบัติของ CIA ในข้อใด",
-                img: "",
-                choices: "Availability///Confidentiality///Integrity///Assessment",
-                answer: "Availability",
-                select: "",
-                explain: "DDOS Attack เป็นการโจมตีเพื่อทำให้ระบบไม่สามารถให้บริการได้ตามปกติ ทำให้ Availability (ความพร้อมใช้งาน) ขาดหายไป Confidentiality (ความลับ) คือ การรักษาความลับ Integrity (ความถูกต้อง) คือ การรักษาความถูกต้องของข้อมูล",
-                state: false
-            },
-            {
-                problem: "ข้อใดไม่ใช่ประเภทของ sensitive personal data",
-                img: "",
-                choices: "ข้อมูลลายนิ้วมือ///ข้อมูลทางพันธุกรรม///ข้อมูลที่อยู่///ข้อมูลสุขภาพ",
-                answer: "ข้อมูลที่อยู่",
-                select: "",
-                explain: "ข้อมูลที่อยู่ไม่ได้ถูกจัดว่าเป็นข้อมูลส่วนบุคคลที่มีความละเอียดอ่อน (sensitive personal data) ตามกฎหมายคุ้มครองข้อมูลส่วนบุคคล (PDPA). ข้อมูลลายนิ้วมือ, ข้อมูลทางพันธุกรรม และข้อมูลสุขภาพ เป็นข้อมูลที่ละเอียดอ่อนที่ต้องได้รับการคุ้มครองเป็นพิเศษ",
-                state: false
-            },
-            {
-                problem: "นาย A ได้เจาะระบบความปลอดภัยของเว็บไซต์โดยไม่ได้รับอนุญาต แต่เมื่อนาย A พบช่องโหว่ (Vulnerability) ของเว็บไซต์แล้วได้แจ้งช่องโหว่ต่อผู้ดูแลระบบเว็บไซต์ดังกล่าว นาย A เป็น Hacker ประเภทใด",
-                img: "",
-                choices: "Black Hat///Small Hat///Gray Hat///White Hat",
-                answer: "Gray Hat",
-                select: "",
-                explain: "Gray Hat Hacker คือ แฮกเกอร์ที่ทำการเจาะระบบโดยไม่ได้รับอนุญาต แต่มีเจตนาที่จะแจ้งให้เจ้าของระบบทราบถึงช่องโหว่ที่พบ เพื่อให้ทำการแก้ไขปรับปรุง Black Hat Hacker คือ แฮกเกอร์ที่มีเจตนาร้าย White Hat Hacker คือ แฮกเกอร์ที่ได้รับอนุญาตให้ทำการทดสอบระบบ",
-                state: false
-            },
-            {
-                problem: "ข้อใดไม่อยู่ในประเภทของ Organized Attackers",
-                img: "",
-                choices: "Cyber Criminal///State-Sponsored///Hacktivist///Employee",
-                answer: "Employee",
-                select: "",
-                explain: "Employee ไม่ได้ถูกจัดว่าเป็น Organized Attackers ในความหมายที่ใช้กันทั่วไป Organized Attackers หมายถึง กลุ่มบุคคลหรือองค์กรที่มีการจัดตั้งและมีเป้าหมายที่ชัดเจนในการโจมตีทางไซเบอร์ เช่น Cyber Criminal, State-Sponsored และ Hacktivist",
-                state: false
-            },
-            {
-                problem: "ข้อใดไม่ใช่ CIA ซึ่งเป็นหลักการพื้นฐานในการปกป้องข้อมูลสารสนเทศให้มีความมั่นคงปลอดภัย",
-                img: "",
-                choices: "Integrity///Availability///Confidentiality///Assessment",
-                answer: "Assessment",
-                select: "",
-                explain: "CIA Triad เป็นโมเดลที่ใช้ในการรักษาความปลอดภัยของข้อมูล Integrity (ความถูกต้อง), Availability (ความพร้อมใช้งาน) และ Confidentiality (ความลับ) Assessment ไม่ได้เป็นส่วนหนึ่งของ CIA Triad",
-                state: false
-            },
-            {
-                problem: "Malware ที่ปลอมตัวเป็นไฟล์ธรรมดาทั่วไปที่ไม่มีพิษมีภัย แต่ทันทีที่เราเปิดไฟล์นั้นขึ้นมา Malware จะเริ่มทำงานโดย เปิดประตู ให้ระบบ หรือที่เรียกว่า backdoor เพื่อให้ Attacker สามารถล้วงข้อมูลหรือแอบดูกิจกรรมการใช้งานคอมพิวเตอร์ หรือขโมยรหัสผ่านได้ในภายหลัง เราเรียก Malware ประเภทนี้ว่าอะไร",
-                img: "",
-                choices: "Botnet///Virus///Worms///Trojan house",
-                answer: "Trojan house",
-                select: "",
-                explain: "Trojan Horse คือ Malware ที่ปลอมตัวเป็นไฟล์ปกติ เพื่อหลอกล่อให้ผู้ใช้เปิดใช้งาน เมื่อผู้ใช้เปิดไฟล์ Trojan Horse จะทำการติดตั้ง backdoor หรือเปิดช่องทางให้ Attacker สามารถเข้าควบคุมระบบได้",
-                state: false
-            },
-            {
-                problem: "ภาพด้านล่างเป็น Password Attacks ซึ่งมีชื่อเรียกว่าอะไร",
-                //require_img
-                img: "https://drive.google.com/open?id=1sru_d4he4WaDfyfDPIMwpK4lcFB_Bdg5&usp=drive_copy",
-                choices: "Password Spraying Attack///Dictionary Attack///Brute Force Attack///Rainbow Attack",
-                answer: "Password Spraying Attack",
-                select: "",
-                explain: "Password Spraying Attack คือ การโจมตีโดยการใช้รหัสผ่านที่ใช้กันทั่วไป (เช่น Password123) กับหลายๆ บัญชีผู้ใช้ เพื่อหลีกเลี่ยงการถูกล็อคจากการพยายามเข้าสู่ระบบด้วยรหัสผ่านผิดพลาดหลายครั้งจากบัญชีเดียว",
-                state: false
-            },
-            {
-                problem: "การโจมตีแบบ Denial-of-Service มีเป้าหมายเพื่ออะไร",
-                img: "",
-                choices: "เพื่อหลอกให้ผู้ใช้ป้อนข้อมูลสำคัญลงในเว็บไซต์ปลอม///เพื่อแอบดักจักเอาข้อมูลของผู้ใช้///เพื่อทำให้ผู้ใช้ไม่สามารถเข้าถึงเว็บไซต์หรือบังคับให้ระบบหยุดทำงาน///เพื่อเก็บประวัติการเข้าใช้งานเว็บไซต์ของผู้ใช้",
-                answer: "เพื่อทำให้ผู้ใช้ไม่สามารถเข้าถึงเว็บไซต์หรือบังคับให้ระบบหยุดทำงาน",
-                select: "",
-                explain: "Denial-of-Service (DOS) attack มีเป้าหมายเพื่อทำให้ระบบหรือเว็บไซต์ไม่สามารถให้บริการได้ตามปกติ โดยการทำให้ระบบทำงานหนักเกินไป หรือทำให้ทรัพยากรของระบบหมดลง",
-                state: false
-            },
-            {
-                problem: "การโจมตีแบบ Man-in-the-Middle (MitM) มีความหมายตรงตามข้อใด",
-                img: "",
-                choices: "ถูกทุกข้อ///ผู้โจมตีสามารถใช้รูปแบบการโจมตีในลักษณะนี้ในการดักรับหรือเปลี่ยนแปลงข้อมูลที่ทั้ง 2 ฝั่งสื่อสารกันอยู่ได้///การที่มีผู้ไม่หวังดีเข้ามาแทรกกลางในการสนทนาระหว่างคน 2 คน แล้วทำหน้าที่เป็นตัวกลางในการรับส่งข้อมูลของคู่สนทนา///การโจมตีแบบนี้ส่วนใหญ่คู่สนทนาจะไม่สามารถทราบได้ว่ามีผู้อื่นเป็นผู้รับและส่งสารต่อกับคู่สนทนาของตนอยู่",
-                answer: "ถูกทุกข้อ",
-                select: "",
-                explain: "Man-in-the-Middle (MitM) attack คือ การโจมตีที่ผู้โจมตีแอบแทรกตัวอยู่ระหว่างการสื่อสารของสองฝ่าย โดยที่ทั้งสองฝ่ายไม่ทราบว่ามีบุคคลที่สามแอบดักรับข้อมูลอยู่ ผู้โจมตีสามารถดักรับข้อมูล หรือเปลี่ยนแปลงข้อมูลก่อนที่จะส่งต่อไปยังปลายทางได้",
-                state: false
-            },
-            {
-                problem: "ณ บริษัท ABC.com ผู้ดูแลระบบฝ่าย IT ได้แจ้งว่า มีชายแปลกหน้าเดินตามหลังและได้ขอให้ผู้ดูแลระบบฝ่าย IT ช่วยเปิดประตูห้อง data center ให้ โดยชายแปลกหน้าบอกว่าตนเองได้ลืมคีย์การ์ดเข้าห้อง (Key Access Card) จากกรณีนี้ ผู้ดูแลระบบฝ่าย IT อาจจะตกเป็นเหยื่อในการหลอกลวงซึ่งเรียกว่าอะไร",
-                img: "",
-                choices: "Denial of Service///Password Attack///Man in the Middle Attack///Social Engineering",
-                answer: "Social Engineering",
-                select: "",
-                explain: "Social Engineering คือ การโจมตีโดยใช้จิตวิทยาในการหลอกลวงให้เหยื่อเปิดเผยข้อมูล หรือกระทำการบางอย่างที่เป็นประโยชน์ต่อผู้โจมตี ในกรณีนี้ ชายแปลกหน้าใช้การหลอกลวงให้ผู้ดูแลระบบเปิดประตูให้",
-                state: false
-            },
-            {
-                problem: "ข้อใดต่อไปนี้ไม่ใช่ physical access control",
-                img: "",
-                choices: "Locked doors to prevent unauthorized access///Fences to protect the perimeter///Access control lists (ACLs) define the type of traffic allowed on a network///Mantrap-style entry systems to stagger the flow of people into the secured area",
-                answer: "Access control lists (ACLs) define the type of traffic allowed on a network",
-                select: "",
-                explain: "Physical access control คือ การควบคุมการเข้าถึงสถานที่ หรือทรัพยากรทางกายภาพ ACLs เป็นการควบคุมการเข้าถึงในระดับ network",
-                state: false
-            },
-            {
-                problem: "Attacker ได้โจมตีคอมพิวเตอร์โดยได้ทำการเข้ารหัสและล็อคไฟล์ของเหยื่อโดยแจ้งว่าถ้าต้องการปลดล็อคเพื่อเข้าใช้งานไฟล์ต่างๆ ได้จะต้องโอนเงินให้กับ Attacker 1,000,000 บาท การโจมตีรูปแบบนี้เรียกว่าอะไร",
-                img: "",
-                choices: "Adware///Spyware///Ransomware///Rookit",
-                answer: "Ransomware",
-                select: "",
-                explain: "Ransomware คือ Malware ที่ทำการเข้ารหัสไฟล์ของเหยื่อ และเรียกค่าไถ่เพื่อแลกกับการถอดรหัสไฟล์",
-                state: false
-            },
-            {
-                problem: "ภาพใดต่อไปนี้เมื่อ POST ลงที่ Social Media มีโอกาสที่จะได้รับความเสี่ยงที่เป็นภัยอันตรายน้อยที่สุด",
-                //require_img
-                img: "https://drive.google.com/open?id=1qADf1nxtmeBKokOvYe6lrdJRRJgZol3B&usp=drive_copy",
-                choices: "Loving my new screensaver, Benson is the best dog ever!///Goodbye 23 Brookbank Street, Hello Las Vegas! Vacation time for the three weeks!///Still paying off my new pair of shoes LOL!///Can't wait to wear my new diamonds to Fontana Restaurant in Bridgetown on Thursday night. #worth$$$",
-                answer: "Loving my new screensaver, Benson is the best dog ever!",
-                select: "",
-                explain: "การโพสต์ภาพ Screensaver ที่เป็นสุนัข ไม่ได้เปิดเผยข้อมูลส่วนตัว หรือข้อมูลที่ละเอียดอ่อน ที่อาจนำไปสู่ความเสี่ยงด้านความปลอดภัย",
-                state: false
-            },
-            {
-                problem: "ข้อใดไม่ใช่ประเภทในการพิสูจน์ตัวตน (Authentication)",
-                img: "",
-                choices: "สิ่งที่คุณมี (something you have)///สิ่งที่คุณรู้ (something you know)///สิ่งที่คุณเป็น (something you are)///สิ่งที่คุณคาดหวัง (something you expected or Dream)",
-                answer: "สิ่งที่คุณคาดหวัง (something you expected or Dream)",
-                select: "",
-                explain: "Authentication มี 3 ประเภทหลัก ได้แก่ Something you know (รหัสผ่าน, PIN), Something you have (Token, Smart card) และ Something you are (Biometrics)",
-                state: false
-            },
-            {
-                problem: "ข้อใดต่อไปนี้เป็นการช่วยปกป้องอุปกรณ์คอมพิวเตอร์และมือถือให้มีความปลอดภัย",
-                img: "",
-                choices: "ติดตั้ง Antivirus และ Antispyware///อัพเดทระบบปฏิบัติการและซอฟต์แวร์ต่าง ๆ ให้เป็น Version ล่าสุดอยู่เสมอ///เปิดการใช้งาน Firewall///ถูกทุกข้อ",
-                answer: "ถูกทุกข้อ",
-                select: "",
-                explain: "การติดตั้ง Antivirus และ Antispyware, การอัพเดทระบบปฏิบัติการและซอฟต์แวร์, และการเปิดใช้งาน Firewall ล้วนเป็นวิธีการปกป้องอุปกรณ์คอมพิวเตอร์และมือถือให้มีความปลอดภัย",
-                state: false
-            },
-            {
-                problem: "Malware นี้มีจุดเด่นคือการโจมตีได้ด้วยตนเอง โดยมันจะสามารถคัดลอกและกระจายตัวมันเองข้ามเครือข่าย เช่น ระบบเครือข่าย LAN หรืออินเทอร์เน็ต เครื่องที่ถูกโจมตีจะกลายเป็น Host ที่ปล่อย Malware ดังกล่าวนี้ออกไปโจมตีได้อย่างต่อเนื่องเพื่อทำลายข้อมูล และสร้างความเสียหายให้กับคอมพิวเตอร์ได้ เราเรียก Malware ประเภทนี้ว่าอะไร",
-                img: "",
-                choices: "Trojan house///Worms///Botnet///Virus",
-                answer: "Worms",
-                select: "",
-                explain: "Worms คือ Malware ที่สามารถแพร่กระจายตัวเองไปยังคอมพิวเตอร์เครื่องอื่น ๆ ได้ โดยไม่ต้องอาศัยการแทรกแซงจากผู้ใช้",
-                state: false
-            },
-            {
-                problem: "ข้อใดกล่าวไม่ถูกต้องเกี่ยวกับ Asymmetric encryption",
-                img: "",
-                choices: "เป็นการเข้ารหัสและถอดรหัสโดยใช้กุญแจรหัสที่เป็น Private Key และ Public Key///เรียกว่าเป็นการเข้ารหัสแบบกุญแจอสมมาตร///เป็นการเข้ารหัสและถอดรหัสโดยใช้กุญแจรหัสตัวเดียวกัน///Public Key เป็น Key ที่ประกาศให้สาธารณะทราบ ใครจะนำไปใช้ก็ได้ ในขณะที่ Private Key เป็น Key ที่รู้เฉพาะเจ้าของ",
-                answer: "เป็นการเข้ารหัสและถอดรหัสโดยใช้กุญแจรหัสตัวเดียวกัน",
-                select: "",
-                explain: "Asymmetric encryption ใช้กุญแจสองชุด คือ Public Key และ Private Key กุญแจทั้งสองใช้สำหรับการเข้ารหัสและถอดรหัส โดย Public Key ใช้เข้ารหัส และ Private Key ใช้ถอดรหัส หรือกลับกัน",
-                state: false
-            },
-            {
-                problem: "ข้อใดไม่ใช่ความหมายหรือนิยามของของคำว่า Cryptography",
-                img: "",
-                choices: "Cryptography คือ การจัดเก็บข้อมูลให้กระจายอยู่ในฐานข้อมูลที่แตกต่างกัน///การดำเนินการของ Cryptography จะมีเพียงผู้เข้ารหัสและผู้รับเท่านั้นที่จะสามารถอ่านข้อความดังกล่าวได้โดยอาศัยกระบวนการ (algorithm) หรือข้อมูลบางอย่าง (Key หรือ password) เป็นตัวช่วย///Cryptography (การเข้ารหัสข้อมูลหรือการสร้างรหัสลับ) มาจาก 2 คำ คือ Crypto (การซ่อน) Graph (การเขียน) รวมกันได้เป็น การเขียนความลับ ///Cryptography มีวัตถุประสงค์เพื่อ การแปลงข้อความหรือข้อมูลปกติให้กลายเป็นข้อมูลที่เป็นความลับ ที่อ่านไม่ออก ยากจะตีความหรือทำความเข้าใจ",
-                answer: "Cryptography คือ การจัดเก็บข้อมูลให้กระจายอยู่ในฐานข้อมูลที่แตกต่างกัน",
-                select: "",
-                explain: "Cryptography คือ การแปลงข้อมูลให้อยู่ในรูปแบบที่ไม่สามารถอ่านได้ เพื่อรักษาความลับและความปลอดภัยของข้อมูล",
-                state: false
-            },
-            {
-                problem: "ข้อใดกล่าวไม่ถูกต้องเกี่ยวกับ Symmetric encryption",
-                img: "",
-                choices: "เรียกว่าเป็นการเข้ารหัสแบบกุญแจอสมมาตร///ข้อเสียของ symmetric encryption มีโอกาสที่จะโดนขโมยโดย Hacker ในขั้นตอนการส่งกุญแจรหัสระหว่างผู้ส่งและผู้รับ///เป็นการเข้ารหัสและถอดรหัสโดยใช้กุญแจรหัสตัวเดียวกัน///เรียกว่าเป็นการเข้ารหัสแบบกุญแจสมมาตร",
-                answer: "เรียกว่าเป็นการเข้ารหัสแบบกุญแจอสมมาตร",
-                select: "",
-                explain: "Symmetric encryption ใช้กุญแจเดียวกันในการเข้ารหัสและถอดรหัส ข้อมูล ข้อเสียคือต้องมีการแลกเปลี่ยนกุญแจระหว่างผู้ส่งและผู้รับ ซึ่งอาจมีความเสี่ยงหากถูกดักจับ",
-                state: false
-            },
-
-
             {
                 problem: "ข้อใดคือชื่อเต็มของ IAAA",
                 img: "",
@@ -3795,24 +3609,6 @@
                 answer: "Identification, Authentication, Authorization, Accountability",
                 select: "",
                 explain: "IAAA คือ Identification, Authentication, Authorization, และ Accountability ซึ่งเป็นหลักการพื้นฐานในการรักษาความปลอดภัยของระบบสารสนเทศ Identification คือการระบุตัวตนของบุคคลหรืออุปกรณ์ที่ต้องการเข้าถึงระบบ Authentication คือการยืนยันตัวตนของบุคคลหรืออุปกรณ์ที่ได้ระบุไว้ Authorization คือการกำหนดสิทธิ์การเข้าถึงทรัพยากรต่างๆ ในระบบ Accountability คือการบันทึกและตรวจสอบกิจกรรมต่างๆ ที่เกิดขึ้นในระบบ",
-                state: false
-            },
-            {
-                problem: "ข้อใดไม่ใช่ CIA ซึ่งเป็นหลักการพื้นฐานในการปกป้องข้อมูลสารสนเทศให้มีความมั่นคงปลอดภัย",
-                img: "",
-                choices: "Integrity///Availability///Confidentiality///Assessment",
-                answer: "Assessment",
-                select: "",
-                explain: "CIA Triad คือ Confidentiality, Integrity, และ Availability ซึ่งเป็นหลักการพื้นฐานในการรักษาความปลอดภัยของระบบสารสนเทศ Confidentiality คือการรักษาความลับของข้อมูล Integrity คือการรักษาความถูกต้องของข้อมูล Availability คือการทำให้ข้อมูลพร้อมใช้งานเสมอ Assessment ไม่ใช่ส่วนหนึ่งของ CIA Triad",
-                state: false
-            },
-            {
-                problem: "ข้อใดไม่อยู่ในประเภทของ Organized Attackers",
-                img: "",
-                choices: "Employee///State-Sponsored///Cyber Criminal///Hacktivist",
-                answer: "Employee",
-                select: "",
-                explain: "Organized Attackers คือกลุ่มผู้โจมตีที่มีการจัดตั้งและมีเป้าหมายที่ชัดเจน โดยทั่วไปแล้ว Organized Attackers จะแบ่งออกเป็น 3 ประเภทหลักๆ ได้แก่ State-Sponsored คือกลุ่มผู้โจมตีที่ได้รับการสนับสนุนจากรัฐบาล Cyber Criminal คือกลุ่มผู้โจมตีที่มีเป้าหมายในการแสวงหาผลกำไร Hacktivist คือกลุ่มผู้โจมตีที่มีเป้าหมายในการแสดงออกทางการเมืองหรือสังคม Employee ไม่ได้อยู่ในประเภทนี้",
                 state: false
             },
             {
@@ -3825,51 +3621,6 @@
                 state: false
             },
             {
-                problem: "เว็บไซต์หนึ่งถูกโจมตีในรูปแบบของ DDOS Attack จนเว็บไม่สามารถให้บริการได้ ซึ่งทำให้ขาดคุณสมบัติของ CIA ในข้อใด",
-                img: "",
-                choices: "Confidentiality///Assessment///Availability///Integrity",
-                answer: "Availability",
-                select: "",
-                explain: "DDoS (Distributed Denial of Service) Attack คือการโจมตีโดยการส่ง Traffic จำนวนมากไปยัง Server ของเว็บไซต์ ทำให้ Server ไม่สามารถให้บริการได้ตามปกติ ซึ่งส่งผลกระทบต่อ Availability หรือความพร้อมใช้งานของเว็บไซต์",
-                state: false
-            },
-            {
-                problem: "ข้อใดไม่ใช่ประเภทของ sensitive personal data",
-                img: "",
-                choices: "ข้อมูลลายนิ้วมือ///ข้อมูลทางพันธุกรรม///ข้อมูลสุขภาพ///ข้อมูลที่อยู่",
-                answer: "ข้อมูลที่อยู่",
-                select: "",
-                explain: "Sensitive Personal Data คือข้อมูลส่วนบุคคลที่มีความละเอียดอ่อน ซึ่งหากถูกเปิดเผยอาจส่งผลกระทบต่อเจ้าของข้อมูลได้ ข้อมูลลายนิ้วมือ ข้อมูลทางพันธุกรรม และข้อมูลสุขภาพ ถือเป็น Sensitive Personal Data ตามกฎหมาย ในขณะที่ข้อมูลที่อยู่ ไม่ได้จัดอยู่ในกลุ่มนี้",
-                state: false
-            },
-            {
-                problem: "Malware ที่ปลอมตัวเป็นไฟล์ธรรมดาทั่วไปที่ไม่มีพิษมีภัย แต่ทันทีที่เราเปิดไฟล์นั้นขึ้นมา Malware จะเริ่มทำงานโดย \"เปิดประตู\" ให้ระบบ หรือที่เรียกว่า backdoor เพื่อให้ Attacker สามารถล้วงข้อมูลหรือแอบดูกิจกรรมการใช้งานคอมพิวเตอร์ หรือขโมยรหัสผ่านได้ในภายหลัง เราเรียก Malware ประเภทนี้ว่าอะไร",
-                img: "",
-                choices: "Virus///Trojan house///Botnet///worms",
-                answer: "Trojan house",
-                select: "",
-                explain: "Trojan Horse คือ Malware ที่ปลอมตัวเป็นไฟล์ปกติทั่วไป เมื่อผู้ใช้เปิดไฟล์ Trojan Horse จะทำการติดตั้ง Backdoor หรือช่องทางลับ เพื่อให้ผู้โจมตีสามารถเข้าควบคุมเครื่องคอมพิวเตอร์ได้จากระยะไกล Virus คือ Malware ที่สามารถแพร่กระจายไปยังไฟล์อื่นๆ ได้ Worm คือ Malware ที่สามารถแพร่กระจายไปยังเครื่องคอมพิวเตอร์อื่นๆ ได้ด้วยตัวเอง Botnet คือเครือข่ายของเครื่องคอมพิวเตอร์ที่ถูกควบคุมโดยผู้โจมตี",
-                state: false
-            },
-            {
-                problem: "Attacker ได้โจมตีคอมพิวเตอร์โดยได้ทำการเข้ารหัสและล็อคไฟล์ของเหยื่อโดยแจ้งว่าถ้าต้องการปลดล็อคเพื่อเข้าใช้งานไฟล์ต่างๆ ได้จะต้องโอนเงินให้กับ Attacker 1,000,000 บาท การโจมตีรูปแบบนี้เรียกว่าอะไร",
-                img: "",
-                choices: "Adware///Ransomware///Spyware///Rookit",
-                answer: "Ransomware",
-                select: "",
-                explain: "Ransomware คือ Malware ที่ทำการเข้ารหัสไฟล์ของเหยื่อ และเรียกค่าไถ่เพื่อแลกกับการถอดรหัส Adware คือ Software ที่แสดงโฆษณา Spyware คือ Software ที่แอบเก็บข้อมูลของผู้ใช้ Rookit คือ Software ที่ซ่อนตัวเองและ Malware อื่นๆ ในระบบ",
-                state: false
-            },
-            {
-                problem: "การโจมตีแบบ Man-in-the-Middle (MitM) มีความหมายตรงตามข้อใด",
-                img: "",
-                choices: "การโจมตีแบบนี้ส่วนใหญ่คู่สนทนาจะไม่สามารถทราบได้ว่ามีผู้อื่นเป็นผู้รับและส่งสารต่อกับคู่สนทนาของตนอยู่///ผู้โจมตีสามารถใช้รูปแบบการโจมตีในลักษณะนี้ในการดักรับหรือเปลี่ยนแปลงข้อมูลที่ทั้ง 2 ฝั่งสื่อสารกันอยู่ได้///ถูกทุกข้อ///การที่มีผู้ไม่หวังดีเข้ามาแทรกกลางในการสนทนาระหว่างคน 2 คน แล้วทำหน้าที่เป็นตัวกลางในการรับส่งข้อมูลของคู่สนทนา",
-                answer: "ถูกทุกข้อ",
-                select: "",
-                explain: "Man-in-the-Middle (MitM) Attack คือการโจมตีที่ผู้โจมตีแอบดักฟังหรือเปลี่ยนแปลงข้อมูลที่ส่งระหว่างคู่สนทนา โดยที่คู่สนทนาไม่รู้ตัว MitM สามารถทำได้โดยการแทรกตัวเข้าไปอยู่ระหว่างคู่สนทนา และทำหน้าที่เป็นตัวกลางในการรับส่งข้อมูล",
-                state: false
-            },
-            {
                 problem: "ข้อใดเป็นการแนะนำการตั้ง password ที่มีความปลอดภัยแข็งแรงที่กำหนดขึ้นโดยสถาบันมาตรฐานและเทคโนโลยีแห่งชาติสหรัฐฯ (NIST)",
                 img: "",
                 choices: "บังคับเรื่องความยาวที่ต้องมีขั้นต่ำ 8 ตัวอักษรเป็นอย่างน้อย///การห้ามใช้ “Password Hints” (คำถามส่วนบุคคลบางอย่าง เช่น วันเกิดของคุณ คือ สีที่คุณชอบ กีฬาที่คุณชอบ เป็นต้น///ถูกทุกข้อ///แสดงรหัสผ่านขณะพิมพ์เพื่อเพิ่มโอกาสให้ผู้ใช้พิมพ์รหัสผ่านยาวๆ ได้ถูกต้อง",
@@ -3879,88 +3630,12 @@
                 state: false
             },
             {
-                problem: "ณ บริษัท ABC.com ผู้ดูแลระบบฝ่าย IT ได้แจ้งว่า มีชายแปลกหน้าเดินตามหลังและได้ขอให้ผู้ดูแลระบบฝ่าย IT ช่วยเปิดประตูห้อง data center ให้ โดยชายแปลกหน้าบอกว่าตนเองได้ลืมคีย์การ์ดเข้าห้อง (Key Access Card) จากกรณีนี้ ผู้ดูแลระบบฝ่าย IT อาจจะตกเป็นเหยื่อในการหลอกลวงซึ่งเรียกว่าอะไร",
-                img: "",
-                choices: "Denial of Service///Social Engineering///Man in the Middle Attack///Password Attack",
-                answer: "Social Engineering",
-                select: "",
-                explain: "Social Engineering คือการโจมตีโดยการหลอกลวงให้เหยื่อเปิดเผยข้อมูลสำคัญ หรือกระทำการบางอย่างที่เป็นประโยชน์ต่อผู้โจมตี ในกรณีนี้ ผู้ดูแลระบบอาจถูกหลอกให้เปิดประตูให้ชายแปลกหน้า ซึ่งอาจนำไปสู่การเข้าถึงข้อมูลที่ไม่ได้รับอนุญาต",
-                state: false
-            },
-            {
-                problem: "การโจมตีแบบ Denial-of-Service มีเป้าหมายเพื่ออะไร",
-                img: "",
-                choices: "เพื่อเก็บประวัติการเข้าใช้งานเว็บไซต์ของผู้ใช้///เพื่อแอบดักจักเอาข้อมูลของผู้ใช้///เพื่อหลอกให้ผู้ใช้ป้อนข้อมูลสำคัญลงในเว็บไซต์ปลอม///เพื่อทำให้ผู้ใช้ไม่สามารถเข้าถึงเว็บไซต์หรือบังคับให้ระบบหยุดทำงาน",
-                answer: "เพื่อทำให้ผู้ใช้ไม่สามารถเข้าถึงเว็บไซต์หรือบังคับให้ระบบหยุดทำงาน",
-                select: "",
-                explain: "Denial-of-Service (DoS) Attack คือการโจมตีโดยการทำให้ Server หรือ Network ไม่สามารถให้บริการได้ตามปกติ โดยการส่ง Traffic จำนวนมากเกินกว่าที่ Server จะรับได้ หรือใช้ช่องโหว่ของระบบเพื่อทำให้ระบบหยุดทำงาน",
-                state: false
-            },
-            {
-                problem: "การโจมตีแบบ Man-in-the-Middle (MitM) มีความหมายตรงตามข้อใด",
-                img: "",
-                choices: "การโจมตีแบบนี้ส่วนใหญ่คู่สนทนาจะไม่สามารถทราบได้ว่ามีผู้อื่นเป็นผู้รับและส่งสารต่อกับคู่สนทนาของตนอยู่///ผู้โจมตีสามารถใช้รูปแบบการโจมตีในลักษณะนี้ในการดักรับหรือเปลี่ยนแปลงข้อมูลที่ทั้ง 2 ฝั่งสื่อสารกันอยู่ได้///ถูกทุกข้อ///การที่มีผู้ไม่หวังดีเข้ามาแทรกกลางในการสนทนาระหว่างคน 2 คน แล้วทำหน้าที่เป็นตัวกลางในการรับส่งข้อมูลของคู่สนทนา",
-                answer: "ถูกทุกข้อ",
-                select: "",
-                explain: "Man-in-the-Middle (MitM) Attack คือการโจมตีที่ผู้โจมตีแอบดักฟังหรือเปลี่ยนแปลงข้อมูลที่ส่งระหว่างคู่สนทนา โดยที่คู่สนทนาไม่รู้ตัว MitM สามารถทำได้โดยการแทรกตัวเข้าไปอยู่ระหว่างคู่สนทนา และทำหน้าที่เป็นตัวกลางในการรับส่งข้อมูล",
-                state: false
-            },
-            {
-                problem: "ข้อใดไม่ใช่ประเภทในการพิสูจน์ตัวตน (Authentication)",
-                img: "",
-                choices: "สิ่งที่คุณเป็น (something you are)///สิ่งที่คุณมี (something you have)///สิ่งที่คุณคาดหวัง (something you expected or Dream)///สิ่งที่คุณรู้ (something you know)",
-                answer: "สิ่งที่คุณคาดหวัง (something you expected or Dream)",
-                select: "",
-                explain: "Authentication คือการพิสูจน์ตัวตนของผู้ใช้ มี 3 ประเภทหลักๆ ได้แก่ Something you are คือการพิสูจน์ตัวตนโดยใช้ลักษณะทางกายภาพ เช่น ลายนิ้วมือ Something you have คือการพิสูจน์ตัวตนโดยใช้อุปกรณ์ที่ผู้ใช้มี เช่น บัตร Smart Card Something you know คือการพิสูจน์ตัวตนโดยใช้ข้อมูลที่ผู้ใช้รู้ เช่น รหัสผ่าน",
-                state: false
-            },
-            {
-                problem: "ข้อใดต่อไปนี้เป็นการช่วยปกป้องอุปกรณ์คอมพิวเตอร์และมือถือให้มีความปลอดภัย",
-                img: "",
-                choices: "เปิดการใช้งาน Firewall///อัพเดทระบบปฏิบัติการและซอฟต์แวร์ต่าง ๆ ให้เป็น Version ล่าสุดอยู่เสมอ///ติดตั้ง Antivirus และ Antispyware///ถูกทุกข้อ",
-                answer: "ถูกทุกข้อ",
-                select: "",
-                explain: "การเปิดใช้งาน Firewall การอัพเดทระบบปฏิบัติการและซอฟต์แวร์ และการติดตั้ง Antivirus และ Antispyware เป็นมาตรการพื้นฐานในการรักษาความปลอดภัยของอุปกรณ์คอมพิวเตอร์และมือถือ Firewall ช่วยป้องกันการเข้าถึงที่ไม่ได้รับอนุญาตจากภายนอก การอัพเดทระบบปฏิบัติการและซอฟต์แวร์ช่วยแก้ไขช่องโหว่ด้านความปลอดภัย Antivirus และ Antispyware ช่วยป้องกัน Malware",
-                state: false
-            },
-
-            {
-                problem: "ข้อใดกล่าวไม่ถูกต้องเกี่ยวกับ Asymmetric encryption",
-                img: "",
-                choices: "เป็นการเข้ารหัสและถอดรหัสโดยใช้กุญแจรหัสที่เป็น Private Key และ Public Key///เป็นการเข้ารหัสและถอดรหัสโดยใช้กุญแจรหัสตัวเดียวกัน///เรียกว่าเป็นการเข้ารหัสแบบกุญแจอสมมาตร///Public Key เป็น Key ที่ประกาศให้สาธารณะทราบ ใครจะนำไปใช้ก็ได้ ในขณะที่ Private Key เป็น Key ที่รู้เฉพาะเจ้าของ",
-                answer: "เป็นการเข้ารหัสและถอดรหัสโดยใช้กุญแจรหัสตัวเดียวกัน",
-                select: "",
-                explain: "Asymmetric encryption หรือการเข้ารหัสแบบอสมมาตร ใช้กุญแจสองชุดในการเข้ารหัสและถอดรหัส คือ Public Key (กุญแจสาธารณะ) และ Private Key (กุญแจส่วนตัว) Public Key ใช้ในการเข้ารหัส และ Private Key ใช้ในการถอดรหัส ข้อความที่เข้ารหัสด้วย Public Key จะสามารถถอดรหัสได้ด้วย Private Key ที่คู่กันเท่านั้น",
-                state: false
-            },
-
-            {
-                problem: "ข้อใดกล่าวไม่ถูกต้องเกี่ยวกับ Symmetric encryption",
-                img: "",
-                choices: "ข้อเสียของ symmetric encryption มีโอกาสที่จะโดนขโมยโดย Hacker ในขั้นตอนการส่งกุญแจรหัสระหว่างผู้ส่งและผู้รับ///เรียกว่าเป็นการเข้ารหัสแบบกุญแจอสมมาตร///เป็นการเข้ารหัสและถอดรหัสโดยใช้กุญแจรหัสตัวเดียวกัน///เรียกว่าเป็นการเข้ารหัสแบบกุญแจสมมาตร",
-                answer: "เรียกว่าเป็นการเข้ารหัสแบบกุญแจอสมมาตร",
-                select: "",
-                explain: "Symmetric encryption หรือการเข้ารหัสแบบสมมาตร ใช้กุญแจรหัสเดียวกันในการเข้ารหัสและถอดรหัส กุญแจนี้ต้องถูกเก็บเป็นความลับและส่งระหว่างผู้รับและผู้ส่งอย่างปลอดภัย ข้อเสียคือหากกุญแจถูกขโมย ข้อมูลที่เข้ารหัสก็จะถูกเปิดเผยได้",
-                state: false
-            },
-
-
-            {
                 problem: "ข้อใดไม่อยู่ในประเภทของ Organized Attackers",
                 img: "",
                 choices: "A. Hacktivist///B. Employee///C. State-Sponsored///D. Cyber Criminal",
                 answer: "B. Employee",
                 select: "",
                 explain: "Hacktivist คือกลุ่มที่ใช้การโจมตีทางไซเบอร์เพื่อวัตถุประสงค์ทางการเมืองหรือสังคม, State-Sponsored คือการโจมตีที่ได้รับการสนับสนุนจากรัฐบาล, Cyber Criminal คือกลุ่มที่มุ่งเน้นการหารายได้จากการโจมตีทางไซเบอร์ ดังนั้น Employee จึงไม่จัดอยู่ในประเภทของ Organized Attackers",
-                state: false
-            },
-            {
-                problem: "เว็บไซต์หนึ่งถูกโจมตีในรูปแบบของ DDOS Attack จนเว็บไม่สามารถให้บริการได้ ซึ่งทำให้ขาดคุณสมบัติของ CIA ในข้อใด",
-                img: "",
-                choices: "A. Integrity///B. Availability///C. Assessment///D. Confidentiality",
-                answer: "B. Availability",
-                select: "",
-                explain: "DDoS (Distributed Denial of Service) attack ทำให้ระบบไม่สามารถให้บริการได้ตามปกติ ซึ่งกระทบต่อ Availability (ความพร้อมใช้งาน) ซึ่งเป็นหนึ่งในหลักการของ CIA Triad (Confidentiality, Integrity, Availability)",
                 state: false
             },
             {
@@ -3973,87 +3648,6 @@
                 state: false
             },
             {
-                problem: "ข้อใดไม่ใช่ CIA ซึ่งเป็นหลักการพื้นฐานในการปกป้องข้อมูลสารสนเทศให้มีความมั่นคงปลอดภัย",
-                img: "",
-                choices: "A. Availability///B. Assessment///C. Integrity///D. Confidentiality",
-                answer: "B. Assessment",
-                select: "",
-                explain: "CIA Triad ประกอบด้วย Confidentiality (ความลับ), Integrity (ความถูกต้อง), และ Availability (ความพร้อมใช้งาน) Assessment ไม่ได้อยู่ในหลักการพื้นฐาน CIA",
-                state: false
-            },
-            {
-                problem: "นาย A ได้เจาะระบบความปลอดภัยของเว็บไซต์โดยไม่ได้รับอนุญาต แต่เมื่อนาย A พบช่องโหว่ (Vulnerability) ของเว็บไซต์แล้วได้แจ้งช่องโหว่ต่อผู้ดูแลระบบเว็บไซต์ดังกล่าว นาย A เป็น Hacker ประเภทใด",
-                img: "",
-                choices: "A. Black Hat///B. White Hat///C. Gray Hat///D. Small Hat",
-                answer: "B. White Hat",
-                select: "",
-                explain: "White Hat hackers คือผู้ที่ใช้ทักษะการแฮกเพื่อจุดประสงค์ที่ดี เช่น การทดสอบระบบเพื่อหาช่องโหว่และแจ้งให้ผู้ดูแลระบบทราบ Black Hat คือแฮกเกอร์ที่ทำผิดกฎหมายและสร้างความเสียหาย",
-                state: false
-            },
-            {
-                problem: "ข้อใดไม่ใช่ประเภทของ sensitive personal data",
-                img: "",
-                choices: "A. ข้อมูลที่อยู่///B. ข้อมูลทางพันธุกรรม///C. ข้อมูลลายนิ้วมือ///D. ข้อมูลสุขภาพ",
-                answer: "A. ข้อมูลที่อยู่",
-                select: "",
-                explain: "Sensitive personal data หมายถึงข้อมูลส่วนบุคคลที่มีความละเอียดอ่อนและอาจก่อให้เกิดความเสียหายต่อเจ้าของข้อมูลหากถูกเปิดเผย ข้อมูลทางพันธุกรรม ข้อมูลลายนิ้วมือ และข้อมูลสุขภาพ จัดเป็นข้อมูลที่ละเอียดอ่อนกว่าข้อมูลที่อยู่",
-                state: false
-            },
-            {
-                problem: "ณ บริษัท ABC.com ผู้ดูแลระบบฝ่าย IT ได้แจ้งว่า มีชายแปลกหน้าเดินตามหลัง และได้ขอให้ผู้ดูแลระบบฝ่าย IT ช่วยเปิดประตูห้อง data center ให้ โดยชายแปลกหน้าบอกว่าตนเองได้ลืมคีย์การ์ดเข้าห้อง (Key Access Card) จากกรณีนี้ ผู้ดูแลระบบฝ่าย IT อาจจะตกเป็นเหยื่อในการหลอกลวงซึ่งเรียกว่าอะไร",
-                img: "",
-                choices: "A. Password Attack///B. Man in the Middle Attack///C. Denial of Service///D. Social Engineering",
-                answer: "D. Social Engineering",
-                select: "",
-                explain: "Social Engineering เป็นการหลอกลวงให้เหยื่อเปิดเผยข้อมูล หรือกระทำการบางอย่างที่เป็นประโยชน์ต่อผู้โจมตี ในกรณีนี้ ชายแปลกหน้าใช้วิธีการพูดจาหว่านล้อมให้ผู้ดูแลระบบเปิดประตูให้",
-                state: false
-            },
-            {
-                problem: "การโจมตีแบบ Man-in-the-Middle (MitM) มีความหมายตรงตามข้อใด",
-                img: "",
-                choices: "A. การที่มีผู้ไม่หวังดีเข้ามาแทรกกลางในการสนทนาระหว่างคน 2 คน แล้วทำหน้าที่เป็นตัวกลางในการรับส่งข้อมูลของคู่สนทนา///B. การโจมตีแบบนี้ส่วนใหญ่คู่สนทนาจะไม่สามารถทราบได้ว่ามีผู้อื่นเป็นผู้รับและส่งสารต่อกับคู่สนทนาของตนอยู่///C. ผู้โจมตีสามารถใช้รูปแบบการโจมตีในลักษณะนี้ในการดักรับหรือเปลี่ยนแปลงข้อมูลที่ทั้ง 2 ฝั่งสื่อสารกันอยู่ได้///D. ถูกทุกข้อ",
-                answer: "D. ถูกทุกข้อ",
-                select: "",
-                explain: "Man-in-the-Middle (MitM) attack คือการที่ผู้โจมตีแอบแทรกตัวอยู่ระหว่างการสื่อสารของสองฝ่าย ทำให้สามารถดักฟัง แก้ไข หรือขโมยข้อมูลได้ โดยที่ทั้งสองฝ่ายไม่รู้ตัว",
-                state: false
-            },
-            {
-                problem: "Attacker ได้โจมตีคอมพิวเตอร์โดยได้ทำการเข้ารหัสและล็อคไฟล์ของเหยื่อโดยแจ้งว่าถ้าต้องการปลดล็อคเพื่อเข้าใช้งานไฟล์ต่างๆ ได้จะต้องโอนเงินให้กับ Attacker 1,000,000 บาท การโจมตีรูปแบบนี้เรียกว่าอะไร",
-                img: "",
-                choices: "A. Spyware///B. Adware///C. Ransomware///D. Rookit",
-                answer: "C. Ransomware",
-                select: "",
-                explain: "Ransomware คือ malware ที่เข้ารหัสไฟล์ของเหยื่อ และเรียกค่าไถ่เพื่อแลกกับการถอดรหัส",
-                state: false
-            },
-            {
-                problem: "การโจมตีแบบ Denial-of-Service มีเป้าหมายเพื่ออะไร",
-                img: "",
-                choices: "A. เพื่อแอบดักจักเอาข้อมูลของผู้ใช้///B. เพื่อทำให้ผู้ใช้ไม่สามารถเข้าถึงเว็บไซต์หรือบังคับให้ระบบหยุดทำงาน///C. เพื่อหลอกให้ผู้ใช้ป้อนข้อมูลสำคัญลงในเว็บไซต์ปลอม///D. เพื่อเก็บประวัติการเข้าใช้งานเว็บไซต์ของผู้ใช้",
-                answer: "B. เพื่อทำให้ผู้ใช้ไม่สามารถเข้าถึงเว็บไซต์หรือบังคับให้ระบบหยุดทำงาน",
-                select: "",
-                explain: "Denial-of-Service (DoS) attack มีเป้าหมายเพื่อให้ระบบไม่สามารถให้บริการได้ตามปกติ โดยการทำให้ระบบ overload หรือหยุดทำงาน",
-                state: false
-            },
-            {
-                problem: "Malware ที่ปลอมตัวเป็นไฟล์ธรรมดาทั่วไปที่ไม่มีพิษมีภัย แต่ทันทีที่เราเปิดไฟล์นั้นขึ้นมา Malware จะเริ่มทำงานโดย \"เปิดประตู\" ให้ระบบ หรือที่เรียกว่า backdoor เพื่อให้ Attacker สามารถล้วงข้อมูลหรือแอบดูกิจกรรมการใช้งานคอมพิวเตอร์ หรือขโมยรหัสผ่านได้ในภายหลัง เราเรียก Malware ประเภทนี้ว่าอะไร",
-                img: "",
-                choices: "A. Trojan house///B. worms///C. Botnet///D. Virus",
-                answer: "C. Trojan house",
-                select: "",
-                explain: "Trojan horse เป็น malware ที่แฝงตัวมาในรูปแบบของไฟล์ปกติ เมื่อผู้ใช้เปิดไฟล์ Trojan จะเริ่มทำงานและเปิดช่องทาง (backdoor) ให้ผู้โจมตีเข้ามาควบคุมระบบ",
-                state: false
-            },
-            {
-                problem: "ข้อใดต่อไปนี้ไม่ใช่ physical access control",
-                img: "",
-                choices: "A. Locked doors to prevent unauthorized access///B. Access control lists (ACLs) define the type of traffic allowed on a network///C. Fences to protect the perimeter///D. Mantrap-style entry systems to stagger the flow of people into the secured area",
-                answer: "B. Access control lists (ACLs) define the type of traffic allowed on a network",
-                select: "",
-                explain: "Physical access controls คือมาตรการทางกายภาพที่ใช้เพื่อป้องกันการเข้าถึงพื้นที่หรือทรัพยากรโดยไม่ได้รับอนุญาต เช่น ประตูล็อค รั้ว และระบบ mantrap, Access control lists (ACLs) เป็น logical access control",
-                state: false
-            },
-            {
                 problem: "“การใช้โปรแกรมอัตโนมัติเพื่อทำการสแกนระบบเพื่อหาช่องโหว่เบื้องต้น” เรียกว่าอะไร",
                 img: "",
                 choices: "A. Endpoint Security///B. Vulnerability Assessment (VA)///C. Network Segmentation///D. System Hardening",
@@ -4062,51 +3656,6 @@
                 explain: "Vulnerability Assessment (VA) เป็นกระบวนการใช้เครื่องมืออัตโนมัติในการสแกนหารูรั่ว (vulnerabilities) ในระบบ",
                 state: false
             },
-            {
-                problem: "ข้อใดไม่ใช่ประเภทในการพิสูจน์ตัวตน (Authentication)",
-                img: "",
-                choices: "A. สิ่งที่คุณเป็น (something you are)///B. สิ่งที่คุณคาดหวัง (something you expected or Dream)///C. สิ่งที่คุณมี (something you have)///D. สิ่งที่คุณรู้ (something you know)",
-                answer: "C. สิ่งที่คุณคาดหวัง (something you expected or Dream)",
-                select: "",
-                explain: "ประเภทของการพิสูจน์ตัวตน (Authentication) หลัก ๆ คือ Something you are (biometrics), Something you have (token, smart card), Something you know (password, PIN)",
-                state: false
-            },
-            {
-                problem: "ข้อใดต่อไปนี้เป็นการช่วยปกป้องอุปกรณ์คอมพิวเตอร์และมือถือให้มีความปลอดภัย",
-                img: "",
-                choices: "A. อัพเดทระบบปฏิบัติการและซอฟต์แวร์ต่าง ๆ ให้เป็น Version ล่าสุดอยู่เสมอ///B. เปิดการใช้งาน Firewall///C. ติดตั้ง Antivirus และ Antispyware///D. ถูกทุกข้อ",
-                answer: "D. ถูกทุกข้อ",
-                select: "",
-                explain: "การอัพเดทซอฟต์แวร์ การใช้ Firewall และการติดตั้ง Antivirus/Antispyware เป็นมาตรการพื้นฐานในการรักษาความปลอดภัยของอุปกรณ์",
-                state: false
-            },
-            {
-                problem: "ข้อใดกล่าวไม่ถูกต้องเกี่ยวกับ Symmetric encryption",
-                img: "",
-                choices: "A. เป็นการเข้ารหัสและถอดรหัสโดยใช้กุญแจรหัสตัวเดียวกัน///B. ข้อเสียของ symmetric encryption มีโอกาสที่จะโดนขโมยโดย Hacker ในขั้นตอนการส่งกุญแจรหัสระหว่างผู้ส่งและผู้รับ///C. เรียกว่าเป็นการเข้ารหัสแบบกุญแจสมมาตร///D. เรียกว่าเป็นการเข้ารหัสแบบกุญแจอสมมาตร",
-                answer: "D. เรียกว่าเป็นการเข้ารหัสแบบกุญแจอสมมาตร",
-                select: "",
-                explain: "Symmetric encryption ใช้กุญแจเดียวกันในการเข้ารหัสและถอดรหัส จึงเรียกว่าเป็นการเข้ารหัสแบบกุญแจสมมาตร (symmetric) ส่วน asymmetric encryption ใช้กุญแจคนละตัว",
-                state: false
-            },
-            {
-                problem: "ข้อใดไม่ใช่ความหมายหรือนิยามของของคำว่า Cryptography",
-                img: "",
-                choices: "A. การดำเนินการของ Cryptography จะมีเพียงผู้เข้ารหัสและผู้รับเท่านั้นที่จะสามารถอ่านข้อความดังกล่าวได้โดยอาศัยกระบวนการ (algorithm) หรือข้อมูลบางอย่าง (Key หรือ password) เป็นตัวช่วย///B. Cryptography คือ การจัดเก็บข้อมูลให้กระจายอยู่ในฐานข้อมูลที่แตกต่างกัน///C. Cryptography มีวัตถุประสงค์เพื่อ การแปลงข้อความหรือข้อมูลปกติให้กลาย เป็นข้อมูลที่เป็นความลับ ที่อ่านไม่ออก ยากจะตีความหรือทำความเข้าใจ///D. Cryptography (การเข้ารหัสข้อมูลหรือการสร้างรหัสลับ) มาจาก 2 คำ คือ Crypto (การซ่อน) Graph (การเขียน) รวมกันได้เป็น “การเขียนความลับ”",
-                answer: "B. Cryptography คือ การจัดเก็บข้อมูลให้กระจายอยู่ในฐานข้อมูลที่แตกต่างกัน",
-                select: "",
-                explain: "Cryptography คือการเข้ารหัสข้อมูลเพื่อรักษาความลับ ไม่ใช่การจัดเก็บข้อมูลให้กระจาย",
-                state: false
-            },
-            {
-                problem: "ข้อใดกล่าวไม่ถูกต้องเกี่ยวกับ Asymmetric encryption",
-                img: "",
-                choices: "A. เรียกว่าเป็นการเข้ารหัสแบบกุญแจอสมมาตร///B. เป็นการเข้ารหัสและถอดรหัสโดยใช้กุญแจรหัสที่เป็น Private Key และ Public Key///C. เป็นการเข้ารหัสและถอดรหัสโดยใช้กุญแจรหัสตัวเดียวกัน///D. Public Key เป็น Key ที่ประกาศให้สาธารณะทราบ ใครจะนำไปใช้ก็ได้ ในขณะที่ Private Key เป็น Key ที่รู้เฉพาะเจ้าของ",
-                answer: "C. เป็นการเข้ารหัสและถอดรหัสโดยใช้กุญแจรหัสตัวเดียวกัน",
-                select: "",
-                explain: "Asymmetric encryption ใช้กุญแจสองชุด คือ public key (แจกจ่ายได้) และ private key (เก็บไว้ส่วนตัว) ไม่ใช่ใช้กุญแจเดียวกันเหมือน symmetric encryption",
-                state: false
-            }
         ]; // Cybersecurity
         var questions9 = [
             {
@@ -4242,42 +3791,6 @@
                 answer: "ระบบแบบรวมศูนย์",
                 select: "",
                 explain: "ระบบแบบรวมศูนย์ (Centralized System) คือ ระบบที่การควบคุมและจัดการข้อมูลรวมถึงการตัดสินใจทั้งหมดอยู่ที่ศูนย์กลาง ในขณะที่ระบบแบบกระจายศูนย์ (Decentralized System) คือ ระบบที่ข้อมูลและการควบคุมกระจายไปยังหลายหน่วยงาน",
-                state: false
-            },
-            {
-                problem: "คุณสมบัติใดต่อไปนี้เป็นคุณสมบัติของฟังก์ชันแฮช (Hash function) ที่สำคัญที่สุด",
-                img: "",
-                choices: "กระบวนการแฮชมีการกระจายตัวของผลลัพธ์สูง///กระบวนการแฮชมีการกระจายตัวของผลลัพธ์ต่ำ///กระบวนการแฮชไม่มีการกระจายตัวของผลลัพธ์///กระบวนการแฮชมีการกระจายตัวของผลลัพธ์เป็นศูนย์",
-                answer: "กระบวนการแฮชมีการกระจายตัวของผลลัพธ์สูง",
-                select: "",
-                explain: "ฟังก์ชันแฮช (Hash function) มีคุณสมบัติที่สำคัญคือ การกระจายตัวของผลลัพธ์สูง (ทำให้ข้อมูลที่ต่างกันเล็กน้อยสร้างผลลัพธ์ที่แตกต่างกันมาก) เพื่อป้องกันการคาดเดาค่าเดิมจากค่าแฮช",
-                state: false
-            },
-            {
-                problem: "คุณสมบัติใดต่อไปนี้เป็นคุณสมบัติของฟังก์ชันแฮช (Hash function) ที่ช่วยป้องกันการปลอมแปลงข้อมูล",
-                img: "",
-                choices: "ค่าแฮชมีลักษณะที่จำเพาะแต่ล่ะข้อมูล///ค่าแฮชมีลักษณะเหมือนกันทุกข้อมูล///ค่าแฮชไม่มีลักษณะเฉพาะ///ค่าแฮชสามารถเปลี่ยนแปลงได้ง่าย",
-                answer: "ค่าแฮชมีลักษณะที่จำเพาะแต่ล่ะข้อมูล",
-                select: "",
-                explain: "ฟังก์ชันแฮช (Hash function) มีคุณสมบัติที่สำคัญคือ ค่าแฮชมีลักษณะเฉพาะสำหรับแต่ละข้อมูล (ป้องกันการปลอมแปลงข้อมูล) เพราะหากข้อมูลเปลี่ยนแปลงแม้เพียงเล็กน้อย ค่าแฮชที่ได้ก็จะแตกต่างกันมาก",
-                state: false
-            },
-            {
-                problem: "คุณสมบัติใดต่อไปนี้เป็นคุณสมบัติของฟังก์ชันแฮช (Hash function) ที่ทำให้ง่ายต่อการจัดการข้อมูล",
-                img: "",
-                choices: "ข้อมูลใด ๆ ที่ผ่านฟังก์ชันแฮชควรมีขนาดเท่ากันและเหมือนกัน///ข้อมูลที่ผ่านฟังก์ชันแฮชมีขนาดไม่แน่นอน///ข้อมูลที่ผ่านฟังก์ชันแฮชมีขนาดใหญ่มาก///ข้อมูลที่ผ่านฟังก์ชันแฮชมีขนาดเล็กมาก",
-                answer: "ข้อมูลใด ๆ ที่ผ่านฟังก์ชันแฮชควรมีขนาดเท่ากันและเหมือนกัน",
-                select: "",
-                explain: "ฟังก์ชันแฮช (Hash function) มีคุณสมบัติที่สำคัญคือ ข้อมูลใด ๆ ที่ผ่านฟังก์ชันแฮชควรมีขนาดเท่ากันและเหมือนกัน (ทำให้ง่ายต่อการจัดการข้อมูล) ไม่ว่าข้อมูลต้นฉบับจะมีขนาดเท่าใด ค่าแฮชที่ได้จะมีขนาดคงที่",
-                state: false
-            },
-            {
-                problem: "คุณสมบัติใดต่อไปนี้เป็นคุณสมบัติที่ทำให้การตรวจสอบข้อมูลด้วยฟังก์ชันแฮช (Hash function) มีประสิทธิภาพสูง",
-                img: "",
-                choices: "ค่าแฮชทำได้ง่ายและรวดเร็ว///ค่าแฮชทำได้ยากและซับซ้อน///ค่าแฮชต้องใช้เวลานานในการคำนวณ///ค่าแฮชไม่สามารถคำนวณได้",
-                answer: "ค่าแฮชทำได้ง่ายและรวดเร็ว",
-                select: "",
-                explain: "ฟังก์ชันแฮช (Hash function) มีคุณสมบัติที่สำคัญคือ ค่าแฮชทำได้ง่ายและรวดเร็ว (ทำให้การตรวจสอบข้อมูลมีประสิทธิภาพสูง) เพราะสามารถตรวจสอบความถูกต้องของข้อมูลได้อย่างรวดเร็วโดยไม่ต้องใช้ทรัพยากรมาก",
                 state: false
             },
             {
@@ -4494,7 +4007,7 @@
                 answer: "ลายเซ็นดิจิทัล",
                 select: "",
                 explain: "รูปนี้แสดงขั้นตอนการทำงานของ Proof of Work (PoW) ซึ่งเป็นกระบวนการที่ใช้ในการตรวจสอบและยืนยันธุรกรรมบนบล็อกเชน",
-                state: false,
+                state: false
             },
             {
                 problem: "ข้อใดต่อไปนี้เป็นคุณสมบัติของ Proof of Work (PoW)",
