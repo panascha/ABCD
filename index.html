@@ -17,6 +17,9 @@
     <!-- Include jsPDF library -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.4.1/jspdf.debug.js"></script>
 
+    <!-- Font Kanit CDN -->
+    <link href='https://fonts.googleapis.com/css?family=Kanit' rel='stylesheet'>
+
 </head>
 
 <!-- Google tag (gtag.js) -->
@@ -31,7 +34,7 @@
 
 <style>
     body {
-        font-family: Arial, sans-serif;
+        font-family: 'Kanit';
         margin: 20px;
         display: flex;
         /* Center the container horizontally */
@@ -5005,7 +5008,7 @@
                     cell1.innerHTML = random_question[i].problem;
                     cell2.innerHTML = random_question[i].answer;
                     cell3.innerHTML = `<span style="font-size: smaller; color: grey;">${random_question[i].select}</span>`;
-                    cell4.innerHTML = `<pre style="white-space: pre-wrap;">${random_question[i].explain.replace(/\*\*(.*?)\*\*/g, '<b>$1</b>')}</pre>`;
+                    cell4.innerHTML = `<pre style="white-space: pre-wrap; font-family: 'Kanit', sans-serif;">${random_question[i].explain.replace(/\*\*(.*?)\*\*/g, '<b>$1</b>')}</pre>`;
                 }
             }
         }
