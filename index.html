@@ -17,9 +17,8 @@
     <!-- Include jsPDF library -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.4.1/jspdf.debug.js"></script>
 
-    <!-- Font Kanit CDN -->
-    <link href='https://fonts.googleapis.com/css?family=Kanit' rel='stylesheet'>
-
+    <!-- Font TH Sarabun New -->
+    <link href="https://fonts.cdnfonts.com/css/th-sarabun-new-4" rel="stylesheet">
 </head>
 
 <!-- Google tag (gtag.js) -->
@@ -34,7 +33,9 @@
 
 <style>
     body {
-        font-family: 'Kanit';
+        font-family: 'TH Sarabun New', sans-serif;
+        font-size: 18px;
+        font-weight: 700;
         margin: 20px;
         display: flex;
         /* Center the container horizontally */
@@ -161,9 +162,9 @@
     }
 
     #question {
-        font-weight: bold;
+        font-weight: bolder;
         margin-bottom: 20px;
-        font-size: 30px;
+        font-size: 35px;
     }
 
     #save {
@@ -301,6 +302,8 @@
     }
 
     #choices button {
+        font-size: 25px;
+        font-weight: bold;
         background-color: rgb(220, 217, 217);
         /* Default button color */
         color: black;
@@ -427,6 +430,8 @@
     }
 
     table {
+        font-size: larger;
+        font-weight: bold;
         width: 75%;
         border-collapse: collapse;
         margin-top: 20px;
@@ -454,7 +459,8 @@
     }
 
     .small {
-        font-size: 13px;
+        font-size: 18px;
+        font-weight: bold;
         color: red;
     }
 
@@ -468,6 +474,7 @@
     }
 
     .checkbox-container {
+        font-size: 25px;
         padding: 10px;
         margin: 10px;
         border-radius: 5px;
@@ -5008,7 +5015,13 @@
                     cell1.innerHTML = random_question[i].problem;
                     cell2.innerHTML = random_question[i].answer;
                     cell3.innerHTML = `<span style="font-size: smaller; color: grey;">${random_question[i].select}</span>`;
-                    cell4.innerHTML = `<pre style="white-space: pre-wrap; font-family: 'Kanit', sans-serif;">${random_question[i].explain.replace(/\*\*(.*?)\*\*/g, '<b>$1</b>')}</pre>`;
+                    if (Array.isArray(random_question[i].answer)) {
+                        cell3.style.color = random_question[i].answer.includes(random_question[i].select) ? "green" : "red";
+                    } else {
+                        cell3.style.color = random_question[i].select === random_question[i].answer ? "green" : "red";
+                    }
+                    cell4.innerHTML = `<pre style="white-space: pre-wrap; font-family: 'TH Sarabun New', sans-serif;">${random_question[i].explain.replace(/\*\*(.*?)\*\*/g, '<b>$1</b>')}</pre>` || "No explanation provided";
+
                 }
             }
         }
